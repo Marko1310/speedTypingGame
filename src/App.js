@@ -1,5 +1,5 @@
 import "./App.css";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
 function App() {
   const STARTING_TIME = 5;
@@ -17,10 +17,14 @@ function App() {
   // word count state
   const [wordCount, setWordCount] = useState(0);
 
+  const textBoxRef = useRef(null);
+
   const startGame = function () {
     setIsTimeRunning(true);
     setTimeRemaining(STARTING_TIME);
     setText(" ");
+    textBoxRef.current.disabled = false;
+    textBoxRef.current.focus();
   };
 
   const endGame = function () {
@@ -54,6 +58,7 @@ function App() {
         onChange={handleChange}
         disabled={!isTimeRunning}
         value={text}
+        ref={textBoxRef}
       />
       <h4>Time remaining: {timeRemaining}</h4>
       <button onClick={startGame} disabled={isTimeRunning}>
