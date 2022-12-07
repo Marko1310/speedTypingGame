@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.a23d842b.css",
-    "main.js": "/static/js/main.20566304.js",
-    "static/js/787.9f95e853.chunk.js": "/static/js/787.9f95e853.chunk.js",
-    "index.html": "/index.html",
-    "main.a23d842b.css.map": "/static/css/main.a23d842b.css.map",
-    "main.20566304.js.map": "/static/js/main.20566304.js.map",
-    "787.9f95e853.chunk.js.map": "/static/js/787.9f95e853.chunk.js.map"
+    "main.css": "/speedTypingGame/static/css/main.a23d842b.css",
+    "main.js": "/speedTypingGame/static/js/main.f5969cd2.js",
+    "static/js/787.9f95e853.chunk.js": "/speedTypingGame/static/js/787.9f95e853.chunk.js",
+    "index.html": "/speedTypingGame/index.html",
+    "main.a23d842b.css.map": "/speedTypingGame/static/css/main.a23d842b.css.map",
+    "main.f5969cd2.js.map": "/speedTypingGame/static/js/main.f5969cd2.js.map",
+    "787.9f95e853.chunk.js.map": "/speedTypingGame/static/js/787.9f95e853.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a23d842b.css",
-    "static/js/main.20566304.js"
+    "static/js/main.f5969cd2.js"
   ]
 }
